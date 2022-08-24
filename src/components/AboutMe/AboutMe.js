@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutMe.css';
-import Portfolio from '../Portfolio/Portfolio';
 import photo from '../../images/about.jpg';
 
 function AboutMe() {
@@ -39,7 +38,6 @@ function AboutMe() {
                     src ={photo}
                     alt="Фото студента"/>
             </div>
-            <Portfolio />
         </section>
     );
 }

@@ -4,7 +4,6 @@ import '../Header/Header.css'
 import SearchForm from '../SearchForm/SearchForm';
 // import Preloader from '../Preloader/Preloader';
 import MoviesCardList from '../MoviesCardList/MoviesCardList';
-import Footer from '../Footer/Footer';
 
 
 function Movies() {
@@ -13,7 +12,6 @@ function Movies() {
             <SearchForm />
             <MoviesCardList/>
             {/* <Preloader /> */}
-            <Footer />
         </section>
     );
 }

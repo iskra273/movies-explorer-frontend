@@ -198,30 +198,28 @@
     }
 
     .aboutproject__part-one {
-        max-width: 100px;
+        min-width: 100px;
         padding: 11px 0 11px 0;
         font-size: 11px;
         line-height: 13px;
     }
     
     .aboutproject__part-two {
-        max-width: 184px;
+        min-width: 184px;
         padding: 11px 0 11px 0;
         font-size: 11px;
         line-height: 13px;
     }
     
     .aboutproject__work-one {
-        max-width: 80px;
+        min-width: 100px;
         margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 62px;
         font-size: 11px;
         line-height: 13px;
     }
     
     .aboutproject__work-two {
-        max-width: 80px;
+        min-width: 184px;
         margin-top: 10px;
         font-size: 11px;
         line-height: 13px;

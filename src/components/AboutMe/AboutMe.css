@@ -1,6 +1,4 @@
 .aboutme {
-    max-width: 1280px;
-    height: 1079px;
     margin: 0 auto;
     padding: 0 70px 0 70px;
     background-color: #FAFAFA;
@@ -96,7 +94,7 @@
 }
 
 .aboutme__link:hover{
-    opacity: 0.6;
+    opacity: 0.7;
 }
 .aboutme__link:first-of-type {
     margin-right: 20px;
@@ -166,6 +164,7 @@
         font-size: 11px;
         line-height: 16px;
     }
+    
     .aboutme__links {
         margin: 40px 0 0 0;
     }

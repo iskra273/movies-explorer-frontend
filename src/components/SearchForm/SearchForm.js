@@ -25,10 +25,8 @@ function SearchForm() {
                 </div>
                 <FilterCheckbox/>
             </div>
-            
             <div className="searchform__line" ></div>
-        </section>
-        
+        </section>   
     );
 }
 

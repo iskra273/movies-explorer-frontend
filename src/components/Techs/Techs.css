@@ -114,6 +114,7 @@
     .techs {
         height: 511px;
         padding: 70px 18px 70px 18px;
+        background-color: #FAFAFA;
     }
 
     .techs__name {

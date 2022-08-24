@@ -9,6 +9,7 @@ import Login from '../Login/Login';
 import Register from '../Register/Register';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 
 function App() {
@@ -53,7 +54,15 @@ function App() {
         <Route path='*'>
           <PageNotFound />
         </Route>
-      </Switch> 
+      </Switch>
+
+      {pathname === "/" || 
+      pathname === "/movies" || 
+      pathname === "/saved-movies" ? (
+        <Footer />
+        ) : (
+          ""
+        )}
     </div>
   );
 }

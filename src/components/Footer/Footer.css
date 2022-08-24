@@ -1,0 +1,113 @@
+.footer {
+    height: 172px;
+    margin: 0 auto;
+    padding: 0 70px 0 70px;
+    background-color: #FAFAFA;
+}
+
+.footer__title {
+    height: 16px;
+    margin: 0 auto;
+    padding: 70px 0 20px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A0A0A0;
+    border-bottom: 1px solid rgba(232, 232, 232);
+    text-align: center;
+}
+
+.footer__line {
+    height: 1px;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    background-color: rgba(232, 232, 232);
+}
+
+.footer__columns {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    max-width: 48px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.footer__links {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__link {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer__link:hover{
+    opacity: 0.6;
+  }
+
+.footer__link:nth-of-type(2n) {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 0 30px 0 30px;
+    }
+    .footer__title {
+        padding: 79px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer {
+        height: 270px;
+        padding: 79px 10px 10px 10px;
+    }
+
+    .footer__line {
+        margin: 21px 0 0 0;
+    }
+
+    .footer__columns {
+        margin: 30px 0 30px 0;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer__links {
+        margin: 0 0 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer__link:nth-of-type(2n) {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}

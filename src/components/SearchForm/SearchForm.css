@@ -1,0 +1,138 @@
+.searchform {
+    padding: 0 70px 0 70px;
+}
+
+.searchform__filterCheckBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchform__container {
+    max-width: 1140px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 69px;
+    padding: 0;
+    background-color: #F4F4F4;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchform__icon {
+    width: 34px;
+    height: 34px;
+    margin: 19px 0 19px 19px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    background-color: #F4F4F4;
+    background-image: url(../../images/lupa.svg);
+    display: block;
+}
+
+.searchform__input-container {
+
+}
+
+
+.searchform__input {
+    margin: 25px 0 25px 10px;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #A0A0A0;
+    background-color: #F4F4F4;
+    border: none;
+    outline: none;
+}
+
+.searchform__find-container {
+    width: 80px;
+    height: 34px;
+    margin: 19px 0 19px 0;
+    padding: 0;
+}
+
+.searchform__find {
+    width: 34px;
+    height: 34px;
+    margin: 0 0 0 46px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    background-color: #F4F4F4;
+    background-image: url(../../images/find.svg);
+}
+
+.searchform__separator {
+    width: 1px;
+    height: 40px;
+    margin: 0 29px 0 30px;
+    padding: 0;
+    background: #E8E8E8;
+}
+
+.searchform__line {
+    height: 1px;
+    margin: 0 auto;
+    padding: 0;
+    background: #E8E8E8;
+}
+
+
+@media screen and (max-width: 768px) {
+    .searchform__container {
+        max-width: 708px;
+        height: 72px;
+        margin-bottom: 109px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .searchform {
+        height: ;
+        padding: 0 10px 0 10px;
+    }
+    
+    .searchform__filterCheckBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .searchform__container {
+        max-width: 300px;
+        margin-top: 80px;
+        margin-bottom: 45px;
+    }
+
+    .searchform__icon {
+        width: 0;
+        margin: 0;
+    }
+
+    .searchform__find-container {
+        margin: 19px 0 19px 0;
+    }
+
+    .searchform__find {
+        margin: 0;
+    }
+
+    .searchform__separator {
+        width: 0;
+        margin: 0;
+    }
+}

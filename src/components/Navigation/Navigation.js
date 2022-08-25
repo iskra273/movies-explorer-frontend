@@ -27,7 +27,7 @@ function Navigation() {
                             </li>
                         </ul>
                     </div>
-                    <NavLink to = "/profile"><button className="header__button-login" type="button">Аккаунт</button></NavLink>
+                    <NavLink to = "/profile"><button className="navigation__button-login" type="button">Аккаунт</button></NavLink>
                 </div> 
             </div>
         </nav>

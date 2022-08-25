@@ -1,5 +1,6 @@
 .navigation {
     width: 67,7%;
+    
 }
 
 .navigation__button-menu {
@@ -19,18 +20,21 @@
 
 .navigation__container {
     /* display: none; */
+    
 }
 
 .navigation__sidebar {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    /* justify-content: space-between; */
     align-items: center;
-    gap: 746px;
+    
 }
 
 .navigation__sidebar-container {
     display: flex;
+    
 }
 
 .navigation__sidebar-list {
@@ -86,7 +90,11 @@
     font-weight: 500;
 }
 
-.header__button-login {
+.navigation__button-login {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    bottom: 0;
     width: 100px;
     height: 36px;
     margin: 21px 0 21px 0;

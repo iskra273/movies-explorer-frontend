@@ -3,5 +3,11 @@
    min-height: 100vh;
    display: flex;
    flex-direction: column;
-   margin: 0 auto; 
+   margin: 0 auto;
+}
+
+@media screen and (max-width: 540px) {
+   .app {
+      background: #FAFAFA;
+   }
 }

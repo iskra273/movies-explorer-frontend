@@ -9,14 +9,14 @@ function SearchForm() {
                 <div className="searchform__container">
                     <button type="submit" className="searchform__icon"/>
                     <form className="searchform__input-container">
-                        <label className="searchform__form"> 
+                        <div className="searchform__form"> 
                             <input
                                 type="text"
                                 required
                                 className="searchform__input"
                                 placeholder="Фильм"
                             />
-                        </label>
+                        </div>
                     </form>
                     <div className="searchform__find-container">
                         <button type="submit" className="searchform__find"/>

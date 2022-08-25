@@ -90,7 +90,7 @@
         padding: 0 50px 0 50px;
     }
     .techs__name {
-        padding: 0 0 23px 0;
+        padding: 90px 0 23px 0;
     }
     .techs__title {
         margin-top: 80px;
@@ -100,9 +100,13 @@
     }
     .techs__icons {
         margin-top: 83px;
+        display: flex;
+        gap: 10;
+        padding: 0 10px 0 10px;
     }
+    
     .techs__icon {
-        max-width: 84px;
+        width: 84px;
         height: 57px;
         background: #E8E8E8;
         font-size: 12px;

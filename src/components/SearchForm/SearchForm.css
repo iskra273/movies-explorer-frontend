@@ -1,5 +1,6 @@
 .searchform {
     padding: 0 70px 0 70px;
+    position: relative;
 }
 
 .searchform__filterCheckBox {
@@ -9,12 +10,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #F4F4F4;
+    border-radius: 9px;
 }
 
 .searchform__container {
-    background-color: #F4F4F4;
-    border-top-left-radius: 9px;
-    border-bottom-left-radius: 9px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,11 +32,15 @@
     cursor: pointer;
     background-color: #F4F4F4;
     background-image: url(../../images/lupa.svg);
-    display: block;
+
 }
 
 .searchform__input-container {
-    width: 750px;
+    
+}
+
+.searchform__form {
+    
 }
 
 .searchform__input {
@@ -54,6 +58,8 @@
 }
 
 .searchform__find-container {
+    position: absolute;
+    right: 327px;
     width: 80px;
     height: 34px;
     margin: 19px 0 19px 0;
@@ -73,7 +79,14 @@
     background-image: url(../../images/find.svg);
 }
 
+.searchform__find:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .searchform__separator {
+    position: absolute;
+    right: 267px;
     width: 1px;
     height: 40px;
     margin: 16px 29px 16px 30px;
@@ -100,8 +113,11 @@
     .searchform__input-container {
         width: 348px;
     }
-
+    .searchform__find-container {
+        right: 257px;
+    }
     .searchform__separator {
+        right: 218px;
         margin: 16px 19px 16px 19px;
     }
 }
@@ -109,6 +125,7 @@
 @media screen and (max-width: 540px) {
     .searchform {
         padding: 0 10px 0 10px;
+        background: #FAFAFA;
     }
     
     .searchform__filterCheckBox {
@@ -116,18 +133,17 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        background-color: #FAFAFA;  
     }
     .searchform__container {
-        border-top-right-radius: 9px;
-        border-bottom-right-radius: 9px;
-    }
-
-    .searchform__input-container {
-        width: 182px;
+        width: 300px;
+        height: 72px;
+        background-color: #F4F4F4;
+        border-radius: 9px;
     }
 
     .searchform__input {
-        margin: 25px 0 19px 10px;
+        margin: 25px 0 25px 19px;
         padding: 0;
         font-size: 14px;
         line-height: 20px;;
@@ -138,6 +154,7 @@
     }
 
     .searchform__find-container {
+        right: 10px;
         margin: 19px 19px 19px 0;
     }
 

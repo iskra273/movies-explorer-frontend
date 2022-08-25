@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #F4F4F4;
-    border-top-right-radius: 9px;
-    border-bottom-right-radius: 9px;
 }
 
 .filterCheckBox__container {
@@ -72,11 +69,6 @@
 }
 
 @media screen and (max-width: 540px) {
-  .filterCheckBox {
-    /* margin-top: 45px; */
-    background-color: #FAFAFA;
-  }
-
   .filterCheckBox__container {
     margin: 45px 0 44px 0;  
   }

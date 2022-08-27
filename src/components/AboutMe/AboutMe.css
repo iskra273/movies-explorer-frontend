@@ -149,6 +149,8 @@
     .aboutme__image {
         max-width: 292px;
         height: 352px;
+        margin: 0;
+        margin-top: 60px;
     }
 
     .aboutme__title {
@@ -160,9 +162,11 @@
     }
 
     .aboutme__description {
-        max-width: 292px;
+        max-width: 100%;
         font-size: 11px;
         line-height: 16px;
+        margin-left: 0;
+        margin-top: 20px;
     }
     
     .aboutme__links {

@@ -1,6 +1,5 @@
 .navigation {
-    width: 67,7%;
-    
+    width: 100%;
 }
 
 .navigation__button-menu {
@@ -20,21 +19,17 @@
 
 .navigation__container {
     /* display: none; */
-    
 }
 
 .navigation__sidebar {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* justify-content: space-between; */
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .navigation__sidebar-container {
     display: flex;
-    
 }
 
 .navigation__sidebar-list {
@@ -65,10 +60,6 @@
     background-color: transparent;
     background-position: center;
     border: none;
-}
-
-.navigation__link_active {
-
 }
 
 .navigation__link {
@@ -112,6 +103,7 @@
     cursor: pointer;
 }
 
+
 @media screen and (max-width: 768px) {
     .navigation__button-menu {
         display: flex;
@@ -132,27 +124,29 @@
 
     .navigation__sidebar {
         box-sizing: border-box;
-        max-width: 520px;
+        width: 520px;
         min-height: 100vh;
+        margin: 0;
+        padding: 0;
         margin-left: auto;
         flex-direction: column;
-        padding: 27px 27px 90px;
+        justify-content: space-between;
+        align-items: center;
         background-color: #fff;
     }
 
     .navigation__sidebar-container {
-        width: 100%;
-    }
-
-    .navigation__button-close {
         display: flex;
     }
 
     .navigation__sidebar-list {
+        display: flex;
         flex-direction: column;
-        margin: 159px auto 0;
+        max-width: 320px;
+        margin: 159px 90px 0 90px;
         align-items: center;
     }
+
     .navigation__sidebar-item {
         margin: 0 0 28px;
     }
@@ -160,24 +154,41 @@
     .navigation__sidebar-item_type_main {
         display: flex;
     }
+
+    .navigation__button-close {
+        display: flex;
+        margin: 0;
+        margin-right: 1px;
+    }
+
     .navigation__link {
-        padding: 0;
-        font-family: 'Inter';
-        font-style: normal;
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;
-        text-align: center;
-        color: #000000;
-        text-decoration: underline;
     }
 
     .navigation__link_active{
-        text-decoration: none;
+        text-decoration: underline;
     }
-}
 
+    .navigation__button-login {
+        position: absolute;
+        top: 902px;
+        bottom: 90px;
+        right: 210px;
+        width: 100px;
+        height: 32px;
+    }
+    
+    @media screen and (max-width: 540px) {
+        .navigation__sidebar-list {
+            margin: 144px 10px 0 10px;
+        }
 
-@media screen and (max-width: 540px) {
-
+        .navigation__button-login {
+            top: 702px;
+            right: 110px;
+        }
+    
+    }
 }

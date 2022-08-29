@@ -36,12 +36,13 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .moviesCardList__list {
         padding: 70px 30px 30px 30px;
-        grid-template-columns: repeat(auto-fit, minmax(339px, 1fr));
-        /* grid-template-columns: repeat(2, 339px); */
-        gap: 36px 20px;
+        /* grid-template-columns: repeat(auto-fit, minmax(339px, 1fr)); */
+        grid-template-columns: repeat(2, 339px);
+        /* grid-template-columns: repeat(2, 1fr); */
+        gap: 36px 30px;
     }
 }
 

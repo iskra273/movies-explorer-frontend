@@ -1,4 +1,5 @@
 .card {
+    max-width: 364px;
     margin: 0;
     padding: 0;
     height: 271px;
@@ -78,8 +79,10 @@
 
 @media screen and (max-width: 768px) {
     .card {
+        max-width: 339px;
         height: 258px;
     }
+    
     .card__image {
         height: 190px;
     }
@@ -90,9 +93,9 @@
 
 @media screen and (max-width: 540px) {
     .card {
+        max-width: 339px;
         height: 236px;
     }
-
     .card__image {
         height: 168px;
     }

@@ -34,7 +34,7 @@
 }
 
 .aboutproject__item {
-    
+    /* margin: 0; */
 }
 
 .aboutproject__item-title {
@@ -146,7 +146,9 @@
     .aboutproject {
         padding: 0 50px 0 50px;
     }
-
+    .aboutproject__item:first-of-type {
+        margin-right: 30px;
+    }
     .aboutproject__item-title {
         max-width: 319px;
     }
@@ -177,6 +179,11 @@
         margin-top: 70px;
         flex-direction: column;
     }
+
+    .aboutproject__item:first-of-type {
+        margin-right: 0;
+    }
+
     .aboutproject__item-title {
         max-width: 284px;
         font-size: 18px;

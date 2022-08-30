@@ -64,6 +64,7 @@
 .searchform__find-container {
     position: absolute;
     right: 327px;
+    bottom: 80px;
     width: 80px;
     height: 34px;
     margin: 19px 0 19px 0;
@@ -110,6 +111,7 @@
     .searchform {
         padding: 0 30px 0 30px;
     }
+
     .searchform__filterCheckBox {
         margin: 80px 0 119px 0;
     }
@@ -117,9 +119,12 @@
     .searchform__input-container {
         max-width: 348px;
     }
+
     .searchform__find-container {
         right: 257px;
+        bottom: 120px;
     }
+
     .searchform__separator {
         right: 218px;
         margin: 16px 19px 16px 19px;
@@ -139,6 +144,7 @@
         justify-content: flex-start;
         background-color: #FAFAFA;  
     }
+
     .searchform__container {
         width: 300px;
         height: 72px;
@@ -164,8 +170,8 @@
     }
 
     .searchform__find-container {
-        position: relative;
-        right: 0;
+        right: 10px;
+        bottom: 110px;
         margin: 19px 19px 19px 0;
     }
 
@@ -173,6 +179,7 @@
         width: 0;
         margin: 0;
     }
+
     .searchform__line {
         margin-bottom: 0;
     }

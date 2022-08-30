@@ -16,11 +16,11 @@ function SearchForm() {
                                 className="searchform__input"
                                 placeholder="Фильм"
                             />
+                            <div className="searchform__find-container">
+                                <button type="submit" className="searchform__find"/>
+                            </div>
                         </div>
                     </form>
-                    <div className="searchform__find-container">
-                        <button type="submit" className="searchform__find"/>
-                    </div>
                     <span className="searchform__separator"></span>
                 </div>
                 <FilterCheckbox/>

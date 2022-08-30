@@ -30,8 +30,7 @@ function AboutMe() {
                             title='https://github.com/'>
                             GitHub
                         </a>
-                    </div>
-                    
+                    </div>  
                 </div>
                 <img 
                     className="aboutme__image" 

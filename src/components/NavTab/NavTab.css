@@ -39,8 +39,10 @@
 @media screen and (max-width: 540px) {
   .navtab {
     padding: 212px 0 17px 0;
+    grid-template-columns: repeat(3, 82px);
     column-gap: 6px;
   }
+  
   .navtab__link {
     max-width: 82px;
     height: 26px;
